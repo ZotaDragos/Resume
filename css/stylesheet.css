@@ -1,0 +1,295 @@
+/* CSS Reset*/
+*
+{
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0 none;
+    outline: 0;
+}
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+a
+{
+    text-decoration: none;
+
+    color: inherit;
+}
+/*---------------------------*/
+
+body
+{
+    font-family: Verdana, sans-serif;
+
+    background-color: #000;
+}
+/*----Header----*/
+
+header
+{
+    position: relative;
+
+    width: 60em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header__nav
+{
+    width: 100%;
+    height: 50px;
+
+    background-color: #000;
+}
+
+nav
+{
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+nav ul li
+{
+    font-size: .9em;
+
+    display: inline;
+
+    padding: 0 5px;
+
+    color: #fff;
+}
+
+nav ul li:hover
+{
+    color: #c5ff60;
+    text-shadow: 2px 3px 3px white;
+}
+
+
+/* -----------------------------------------------------*/
+
+.header__title
+{
+    position: relative;
+
+    width: 100%;
+    height: 120px;
+
+    border-bottom: 10px solid #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(135deg, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 28%,rgba(114,170,0,1) 65%,rgba(158,203,45,1) 100%);
+    box-shadow: 0 2px 2px #fff;
+}
+
+.header--title
+{
+    font-size: 3em;
+    font-style: italic;
+
+    position: relative;
+
+    padding-top: 20px;
+    padding-left: 100px;
+
+    letter-spacing: -1px;
+
+    color: #fff;
+    text-shadow: 2px 3px 3px #000;
+}
+
+.header__title__paragraph
+{
+    font-size: .9em;
+
+    padding-top: .5em;
+    padding-left: 100px;
+
+    color: #fff;
+}
+
+.header--title a:hover
+{
+    color: #d9e8bb;
+    text-shadow: 2px 3px 3px #000;
+}
+
+/*----Content----*/
+
+#content
+{
+    position: relative;
+
+    width: 60em;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+    background: linear-gradient(135deg, rgba(246,248,249,1) 0%,rgba(215,222,227,1) 100%,rgba(245,247,249,1) 100%);
+}
+.content__left
+{
+    display: inline-block;
+    float: left;
+
+    width: 25%;
+    padding-left: 100px;
+}
+.content__middle
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 42%;
+}
+.info
+{
+    line-height: 150%;
+
+    padding-top: 22px;
+}
+.info h3
+{
+    font-size: 1em;
+
+    text-shadow: 2px 3px 3px green;
+}
+.info p
+{
+    font-size: .8em;
+    font-style: italic;
+}
+.telefon p
+{
+    letter-spacing: 1px;
+}
+.content__right
+{
+    position: fixed;
+
+    display: inline-block;
+
+    width: 13%;
+    height: auto;
+    padding-bottom: 5px;
+
+    border-radius: 5%;
+    background: linear-gradient(135deg, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 28%,rgba(114,170,0,1) 65%,rgba(158,203,45,1) 100%);
+    box-shadow: 4px 3px 8px #000;
+}
+.content__right h3
+{
+    font-size: 1.5em;
+
+    padding: 15px 10px;
+
+    text-align: center;
+
+    color: #fff;
+    text-shadow: 2px 3px 3px #000;
+}
+.content__right ul li
+{
+    font-size: .9em;
+    font-style: italic;
+    line-height: 25px;
+
+    padding: 5px 30px;
+
+    list-style: none;
+
+    cursor: pointer;
+
+    color: #fff;
+    text-shadow: 2px 3px 3px #000;
+}
+.social-facebook
+{
+    background: url('../img/social-facebook.png') no-repeat left ;
+}
+.social-twitter
+{
+    background: url('../img/social-twitter.png') no-repeat left ;
+}
+.social-linkedin
+{
+    background: url('../img/social-linkedin.png') no-repeat left ;
+}
+.social-youtube
+{
+    background: url('../img/social-youtube.png') no-repeat left ;
+}
+.social-google
+{
+    background: url('../img/social-google.png') no-repeat left ;
+}
+.social-printer
+{
+    background: url('../img/social-printer.png') no-repeat left ;
+}
+
+.content__right ul li:hover
+{
+    font-weight: bold;
+    font-style: normal;
+
+    color: green;
+    text-shadow: 2px 3px 3px #fff;
+}
+/*-------------Aticole-----------------*/
+
+article
+{
+    position: relative;
+
+    margin-right: 250px;
+    padding: 10px;
+}
+article h2
+{
+    font-size: 1.2em;
+
+    padding: 10px;
+
+    border-bottom: 2px solid #95d42f;
+    text-shadow: 2px 3px 3px #95d42f;
+}
+article p
+{
+    font-size: 1em;
+
+    padding: 10px;
+}
+
+footer
+{
+    position: relative;
+
+    width: 60em;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 2px solid #95d42f;
+    border-radius: 5px;
+    background-color: #000;
+}
+footer p
+{
+    float: right;
+
+    padding: 15px;
+
+    color: #95d42f;
+}
